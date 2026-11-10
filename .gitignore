@@ -1,0 +1,23 @@
+# ROS 2 / Colcon build artifacts
+build/
+install/
+log/
+
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# CMake / compiler temporary files
+CMakeCache.txt
+CMakeFiles/
+
+# Editor & OS temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
